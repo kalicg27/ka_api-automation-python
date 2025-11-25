@@ -27,5 +27,6 @@ jobs:
       - name: Run tests
         env:
           PYTHONPATH: ${{ github.workspace }}
+          BASE_URL: https://reqres.in
         run: |
           python -m pytest -v --maxfail=1 --disable-warnings
