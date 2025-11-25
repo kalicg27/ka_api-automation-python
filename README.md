@@ -1,5 +1,6 @@
 # API Automation Framework (Python + pytest)
 
+The main goal is to show how I organise API tests in a clean and maintainable way.
 This repository contains an API test automation framework written in Python, using `pytest` and `requests`.  
 The framework is designed to be easily adapted to any REST API by changing configuration values, and demonstrates how I approach test structure, maintainability, and reporting.
 
